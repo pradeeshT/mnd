@@ -1,0 +1,180 @@
+h1 {
+  color: #fff;
+        font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0px 10px 10px 10px;
+	background: #C5DA99 url(images/img01.jpg) repeat;
+	color: #787878;
+        position:absolute;  
+        font:15px Georgia, "Times New Roman", Times, serif; 
+
+}
+
+#header {
+	width: auto;
+	height: 100px;
+     margin:9px 05px ;
+	padding: 0px 50px;
+	background: url(images/img02.jpg) repeat;
+    position:relative;
+}
+
+
+#logo {
+	float: right;
+	width: 300px;
+	margin: 0;
+	padding: 13px;
+	color: #FFFFFF;
+       	text-shadow: 1px 1px 1px white;
+}
+
+#menu {
+	padding:30px 10px 0 30px;
+         position:absolute;    
+}
+#menu li {
+	display: inline;
+      -moz-border-radius-topleft: 12px; 
+      -webkit-border-top-left-radius:12px;
+      
+}
+#menu li a {
+
+	text-decoration: none;
+        float:left;
+        width:;
+        height:20px;
+	padding: 10px;
+	color: #D6D6D6;
+        font:14px Georgia, "Times New Roman", Times, serif;   
+      
+}
+#menu li:first-child a{
+     float:left;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#menu li a:hover {
+       
+	
+	margin-top:;
+       color:#FFF;
+	padding-bottom:12px;
+     
+  /*Transition*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+   
+  text-shadow:5px 5px 5px white;
+
+background:url(images/vline.jpg) no-repeat bottom
+}
+
+
+#menu li .gap{ height:17px; margin-top:6px; padding:0 0px 0 1px; float:left;  background:url(images/menuspace.jpg) no-repeat center bottom}
+
+
+
+
+
+
+#contentbg
+	{
+		width:1004px;
+		float:left;
+	    background: #FFFFFF;
+	}
+		
+#content 
+      {
+              padding:;
+      }		
+
+/*  contentleft  */
+#contentleft
+      {
+		width:190px;
+		float: left;
+		margin:0px;
+		padding:34px 0 33px 23px;
+      }
+
+
+/*   content middle */
+#contentmid
+	{
+		width:500px;
+		float:left;
+		margin:0px;
+		padding:34px 5px 33px 15px;
+		background-image:url(images/vline.jpg);
+		background-repeat:repeat-y; 
+	}
+
+/* content Right */
+#contentright
+	{
+		width:240px;
+		float: right;
+		padding:34px 0 40px 12px;
+		background-image:url(images/vline.jpg);
+		background-repeat:repeat-y;
+	}
+
+/* login box */
+#loginPan form
+     {
+               padding:5px;
+               width:200px; 
+               height:188px; 
+              background:#FCF6E6; 
+              color:#705D20; 
+              position:relative; 
+              border:1px dashed #BFB492; 
+         }
+#loginPan form label
+         {
+              width:91px; 
+              height:22px; 
+             display:block; 
+             float:left;  
+         }
+
+#loginPan form input.button
+          {
+             width:52px; 
+            height:30px; 
+            display:block; 
+            position:absolute;  
+            background-color:#6E8B3D; 
+           border:none; 
+           color:#fff;  
+           font:15px Georgia, "Times New Roman", Times, serif; 
+            text-align:center;  
+            margin-left:75px;
+         }
+
+
+#loginPan form input.button:hover
+          { 
+            background-color:#79CDCD; 
+          }
+
+select {
+  width: 158px;
+  height: 21px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  overflow: hidden;
+  background-color:orange;
+
+}
